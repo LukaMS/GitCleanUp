@@ -1,18 +1,5 @@
 #!/usr/bin/env python3
 """
-Git‑Clean — retroactive .gitignore fixer
-=======================================
-Deletes files that are already **tracked** in Git but should now be ignored
-according to your *.gitignore*.
-
-Features
---------
-* Reads patterns from the nearest *.gitignore* (and .*/*.git/info/exclude*).
-* Compares them against `git ls-files --cached` (tracked files).
-* Supports a **dry‑run** so you can preview what would be removed.
-* Colourful, human‑friendly output via **Rich**.
-* Interactive confirmation unless `--yes` is given.
-
 Usage
 -----
 ```bash
